@@ -1,0 +1,182 @@
+/* Images Styles */
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* General Font-Size */
+
+h1 {
+  font-size: 2.027rem;
+  line-height: 1.2;
+  opacity: .8;
+}
+
+h2 {
+  font-size: 1.802rem;
+  line-height: 1.3;
+  opacity: .8;
+}
+
+h4 {
+  font-size: 1.424rem;
+  line-height: 1.3;
+  font-weight: 400;
+  border-top: 1px solid black;
+}
+
+
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  width: 90%;
+}
+
+
+a {
+  color: #101010;
+  font-size: 0.889rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  line-height: 2;
+}
+
+.logo {
+  font-size: 2.1rem;
+}
+
+.under-logo {
+  font-size: 1.4rem;
+}
+
+.main .date {
+  font-size: 1.1rem;
+  font-weight: 900;
+  opacity: .5;
+}
+
+
+
+
+
+/* Grid Set Up */
+
+.grid {
+  display: grid;
+}
+
+/* Flex Set Up */
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  flex-direction: column;
+}
+
+
+/* list styles  */
+
+ul a,
+ol a {
+  display: block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+
+ul,
+ol {
+
+  list-style: none;
+}
+
+
+
+/* Padding  */
+
+.p-4 {
+  padding: 1rem 0;
+}
+
+.p-6 {
+  padding: 1.5rem 0;
+}
+
+.p-8 {
+  padding: 2rem 0;
+}
+
+
+
+/* Margin  */
+
+h1,
+h2,
+h4,
+p,
+a,
+ul,
+ol {
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+
+/* Main Spacing  */
+
+.date {
+  margin-bottom: 1.5rem;
+}
+
+/* Footer Element Spacing */
+
+.footer .footer-box p {
+  margin: 0;
+}
+
+.footer-box {
+  align-items: initial;
+  gap: .5rem
+}
+
+.footer-logo,
+.footer-list {
+  margin-bottom: 1.5rem;
+}
+
+
+/* Sidebar Element Spacing */
+
+.sidebar ol {
+  gap: .5rem;
+  align-items: initial;
+}
+
+.wrapper>* {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
